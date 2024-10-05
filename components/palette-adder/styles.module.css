@@ -1,18 +1,44 @@
-.welcomeContainer {
+.paletteAdderContainer {
   padding: 10px 20px;
 }
 
-.welcome {
+.title {
   text-align: center;
   margin-top: 150px;
   font-size: 2.5rem;
+}
+
+.paletteAdderInputs {
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.paletteAdderInput {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.colorNum {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
 }
 
 .form {
   width: 100%;
   max-width: 600px;
   display: flex;
-  height: 42px;
+  flex-direction: column;
+  gap: 10px 0;
+  /* height: 42px; */
   margin: 50px auto;
 }
 
@@ -21,7 +47,6 @@
   padding: 10px 12px;
   border-radius: 3px 0 0 3px;
   border: solid 1px grey;
-  border-right: none;
   box-shadow: none;
   outline: none;
 }

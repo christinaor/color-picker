@@ -1,0 +1,70 @@
+.paletteColor {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.colorDetails {
+  display: flex;
+  align-items: center;
+  gap: 0 70px;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 4px 0;
+}
+
+.value {
+  text-align: center;
+}
+
+.editButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 3px 0 0 3px;
+  border: solid 1px grey;
+  box-shadow: none;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #830051;
+}
+
+.button {
+  height: 100%;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  border-style: solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 0 3px 3px 0;
+  border-width: 1px;
+  background-color: #830051;
+  border-color: #830051;
+  color: white;
+}
+
+.button:disabled {
+  opacity: 0.4;
+}

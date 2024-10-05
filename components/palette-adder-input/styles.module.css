@@ -1,0 +1,23 @@
+.paletteAdderInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 4px 0;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 3px 0 0 3px;
+  border: solid 1px grey;
+  box-shadow: none;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #830051;
+}
